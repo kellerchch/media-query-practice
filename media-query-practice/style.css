@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  html, body {
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .primary-color-background {
+    background-color: #f8f9fa;
+    color: white;
+  }
+  
+  .secondary-color-background {
+    background-color: #212529;
+    color: white;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 60px;
+  }
+
+  header h1 {
+    color: #fed136;
+    font-family: 'Kaushan Script','Helvetica Neue','Helvetica','Arial','cursive';
+    transition: all .3s;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: initial;
+    transition-delay: initial;
+}
+  #banner {
+    background-image: url(https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg);
+    height: 759px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  nav {
+    display: none;
+    font-size: 90%;
+    font-weight: 400;
+    padding: .75em 0;
+    letter-spacing: 1px;
+    color: #fff;
+    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+  }
+  
+  nav a {
+    margin-left: 30px;
+  }
+  
+  section {
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .service img {
+    width: 100%;
+  }
+  
+  .service {
+    margin-bottom: 2%;
+  }
+
+  #contact {
+    background-image: url(https://blackrockdigital.github.io/startbootstrap-agency/img/map-image.png);
+  }
+  
+  @media(min-width: 767px) {
+    .services-container {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+  
+    .services {
+      width: 48.5%;
+    }
+  }
+  
+  @media(min-width: 992px) {
+    .menu {
+      display: none;
+      padding-top: 25px;
+      padding-bottom: 25px;
+      -webkit-transition: padding-top .3s,padding-bottom .3s;
+      -moz-transition: padding-top .3s,padding-bottom .3s;
+      transition: padding-top .3s,padding-bottom .3s;
+      border: none;
+      background-color: transparent;
+    }
+
+    nav {
+      display: flex;
+    }
+  
+    .project {
+      width: 32%;
+    }
+  }
